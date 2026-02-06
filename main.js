@@ -13,10 +13,3 @@ function createGlitter() {
 }
 
 setInterval(createGlitter, 300);
-
-// Make buttons do ridiculous things
-document.querySelectorAll('.button').forEach(button => {
-    button.addEventListener('click', () => {
-        alert('WOW YOU CLICKED A BUTTON!!! SO INTERACTIVE!!! 🎉✨💖');
-    });
-});
